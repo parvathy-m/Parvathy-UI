@@ -1,0 +1,108 @@
+.section-content
+{
+  width: 98%;
+}
+
+.title
+{
+  padding: 20px 5%;
+  margin-top: 65px;
+  /* box-shadow: rgba(0, 0, 0, 0.048) 0px 2px 4px 2px inset; */
+  /* border-radius: 15px; */
+}
+
+.title .action
+{
+  text-align: center;
+  /* width: 70%; */
+  padding: 0px 4% 0px 4%;
+}
+
+.title .content
+{
+  /* width: 70%; */
+  padding: 0px 8% 0px 8%;
+  text-align: center;
+  font-family: "Alegreya Sans SC", "Helvetica Neue","Arial", "Lucida Grande";
+  font-weight: 400;
+}
+
+.title .content .a
+{
+  font-size: 140px;
+  margin-top: 30px;
+  line-height: 140px;
+}
+
+.title .content .a .name
+{
+  font-weight: bold;
+}
+
+
+.title .content .b
+{
+  font-size: 20px;
+}
+
+.photo
+{
+  margin-top: 80px;
+  padding: 20px 5%;
+}
+
+.photo-card
+{
+  width: auto !important;
+  /* box-shadow: none; */
+  border: none;
+  align-items: center;
+}
+
+.photo-card > .card-body
+{
+  /* width: 100% ; */
+  padding: 0px 0px 50px 0px;
+  object-fit: contain;
+  /* height: 100px; */
+  width: 600px;
+}
+
+.photo-card > .card-body > img
+{
+  /* object-fit: contain; */
+  width: 100%;
+}
+
+.animate-charcter
+{
+  background: linear-gradient(112deg, rgba(2,0,36,1) 0%, rgba(139,139,139,1) 25%, rgba(199,206,214,1) 49%, rgba(139,139,139,1) 91%, rgba(2,0,36,1) 100%);
+  /* text-transform: uppercase; */
+  /* background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  ); */
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: var(--white);
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 8s linear infinite;
+  display: inline-block;
+  font-size: 190px;
+}
+
+@keyframes textclip
+{
+  to
+  {
+    background-position: 200% center;
+  }
+}
+

@@ -1,0 +1,26 @@
+section
+{
+  padding: 0px 10px;
+}
+
+.title
+{
+  width: 100%;
+  text-align: center;
+}
+
+.title small
+{
+  font-size: 14px;
+}
+
+.title h2
+{
+  font-size: 50px;
+}
+
+.content
+{
+  padding: 1px 27%;
+  text-align: center;
+}

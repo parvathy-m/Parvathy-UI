@@ -1,0 +1,45 @@
+section
+{
+  padding: 0px 10px;
+}
+
+.title
+{
+  width: 100%;
+  text-align: left;
+}
+
+.title h2
+{
+  font-size: 50px;
+}
+
+p
+{
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.content
+{
+  padding: 20px 12%;
+}
+
+.content .img
+{
+  object-fit: contain;
+  /* padding: 0px 100px; */
+  width: auto
+}
+
+.col-8
+{
+  padding: 2% 20px;
+}
+
+.content .img > img
+{
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}

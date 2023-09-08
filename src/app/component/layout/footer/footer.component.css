@@ -1,0 +1,88 @@
+footer
+{
+  width: 100%;
+  overflow-x: hidden;
+  background-color: var(--black);
+  color: var(--white);
+}
+
+ul
+{
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+li
+{
+  list-style: none;
+}
+
+i
+{
+  font-size: 30px;
+}
+
+
+footer .title
+{
+  padding: 40px 12%;
+}
+
+.content
+{
+  padding: 0px 8.5%;
+}
+
+.email
+{
+  width: 66%;
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--dw) !important;
+  border-radius: 2px;
+}
+
+.row
+{
+  text-align: center;
+  align-items: center;
+}
+
+.email input
+{
+  border: none !important;
+  border-radius: 0px !important;
+  /* padding: 0px !important; */
+}
+
+.email button
+{
+  height: 50px;
+  border-radius: 0px !important;
+}
+
+.email button:hover
+{
+  border: 1px solid var(--black) !important;
+}
+
+.hrr
+{
+  padding: 0px;
+  margin: 0px;
+  border-top: 1px solid var(--white) !important;
+}
+
+.content .footnote
+{
+  text-align: center;
+}
+
+.email i
+{
+  font-size: 20px;
+}

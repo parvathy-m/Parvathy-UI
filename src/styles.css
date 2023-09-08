@@ -1,1 +1,53 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300;400;500;700&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+:root
+{
+  --black: #080402;
+  --white: #f3f3f2;
+  --dw: #9c9c9c;
+  --bg: #f5fefd;
+  --cbr:#333333;
+  --cbg:#f8f8f89f;
+}
+
+*
+{
+  margin: 0px;
+  padding: 0px;
+}
+
+*
+{
+  font-family: 'Roboto', Times, serif !important;
+}
+
+body
+{
+  background-color: var(bg);
+  font-family: 'Roboto', Times, serif !important;
+}
+
+.c-btn
+{
+  /* border: none !important; */
+  border-radius: 2px !important;
+  padding: 10px 40px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  height: 100%;
+  justify-content: center;
+}
+
+.c-txt
+{
+  border: 1px solid #9c9c9c !important;
+  outline: none !important;
+  border-radius: 3px !important;
+  height: 50px;
+}
+
+.c-txt:active
+{
+  outline: #9c9c9c !important;
+}

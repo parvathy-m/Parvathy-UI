@@ -1,0 +1,46 @@
+section {
+  padding: 0px 10px;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+}
+
+.title h2 {
+  font-size: 50px;
+}
+
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card {
+  width: 400px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.card .img {
+  object-fit: contain;
+  height: 300px;
+}
+
+.card .img>img {
+  height: 100%;
+  width: 100%;
+}
+
+.card .action > button
+{
+  width: 100%;
+}
