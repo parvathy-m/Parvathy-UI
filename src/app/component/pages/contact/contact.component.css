@@ -17,7 +17,13 @@ section
 .title h2
 {
   font-size: 50px;
+  color:var(--dg);
 }
+
+/* .title h2 small
+{
+  color: var();
+} */
 
 .content
 {

@@ -3,12 +3,14 @@
 
 :root
 {
-  --black: #080402;
+  --black: #43ad66;
   --white: #f3f3f2;
-  --dw: #9c9c9c;
-  --bg: #f5fefd;
+  --dark : #2b8549;
+  --dg:#28a745;
+  --dw: #22913c;
+  --bg: #f3fff465;
   --cbr:#333333;
-  --cbg:#f8f8f89f;
+  --cbg:#f3fff49f;
 }
 
 *
@@ -24,7 +26,7 @@
 
 body
 {
-  background-color: var(bg);
+  background-color: var(--bg) !important;
   font-family: 'Roboto', Times, serif !important;
 }
 
@@ -39,9 +41,10 @@ body
   justify-content: center;
 }
 
+
 .c-txt
 {
-  border: 1px solid #9c9c9c !important;
+  border: 1px solid var(--dw) !important;
   outline: none !important;
   border-radius: 3px !important;
   height: 50px;
