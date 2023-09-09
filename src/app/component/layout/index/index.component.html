@@ -1,14 +1,16 @@
-<app-header></app-header>
+<app-header (customEvent)="handleEvent($event)"></app-header>
 
 <div class="container-fluid">
-  <app-home></app-home>
+  <p #home> </p>
+  <app-home ></app-home>
 
   <br>
   <br>
   <br>
   <br>
 
-  <app-skills class="reveal" appScrollReveal></app-skills>
+  <p #skills> </p>
+  <app-skills class="reveal" appScrollReveal ></app-skills>
 
   <br>
   <br>
@@ -16,7 +18,7 @@
   <br>
   <br>
 
-
+  <p #about> </p>
   <app-news class="reveal" appScrollReveal></app-news>
 
   <br>
@@ -26,6 +28,7 @@
   <br>
   <br>
 
+  <p #project> </p>
   <app-testimonials class="reveal" appScrollReveal></app-testimonials>
 
   <br>
@@ -34,6 +37,7 @@
   <br>
   <br>
 
+  <p #contact> </p>
   <app-contact class="reveal" appScrollReveal></app-contact>
 
 
