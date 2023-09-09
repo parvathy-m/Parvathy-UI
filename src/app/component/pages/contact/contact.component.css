@@ -30,3 +30,20 @@ section
   padding: 1px 27%;
   text-align: center;
 }
+
+
+@media (min-width: 601px) and (max-width: 1000px)
+{
+  .content
+  {
+    padding: 0px 20%;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .content
+  {
+    padding: 0px;
+  }
+}

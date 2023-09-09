@@ -86,3 +86,31 @@ footer .title
 {
   font-size: 20px;
 }
+
+
+
+
+@media (min-width: 601px) and (max-width: 1000px)
+{
+  .col
+  {
+    margin-bottom: 80px;
+  }
+  .email
+  {
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .col
+  {
+    margin-bottom: 80px;
+  }
+
+  .email
+  {
+    width: 100%;
+  }
+}

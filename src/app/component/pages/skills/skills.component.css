@@ -33,7 +33,7 @@ section
   border-top: 10px none;
   border-bottom: 5px solid var(--black);
   background-color: var(--cbg);
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .card h4
@@ -63,4 +63,21 @@ p
 .icon
 {
   padding: 10px;
+}
+
+
+@media (min-width: 601px) and (max-width: 1000px)
+{
+  .card
+  {
+    width: 550px;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .card
+  {
+    width: 500px;
+  }
 }

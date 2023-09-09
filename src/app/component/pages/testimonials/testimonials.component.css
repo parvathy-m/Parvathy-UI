@@ -52,3 +52,20 @@ p {
 {
   color: var(--dg);
 }
+
+
+@media (min-width: 601px) and (max-width: 1000px)
+{
+  .card
+  {
+    width: 550px;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .card
+  {
+    width: 500px;
+  }
+}
