@@ -146,6 +146,18 @@ b
   }
 }
 
+@media (min-width: 1000px) and (max-width: 1500px)
+{
+  .title .content .a,.title .content .a .name {
+    font-size: 80px; /* Adjust font size for smaller screens */
+    line-height: 100px;
+  }
+
+  .photo-card > .card-body {
+    width: 400px;
+  }
+}
+
 
 @media (max-width: 600px) {
   .title .content .a,.title .content .a .name {
