@@ -34,6 +34,7 @@ section
   border-bottom: 5px solid var(--black);
   background-color: var(--cbg);
   margin-bottom: 50px;
+  height: 450px;
 }
 
 .card h4

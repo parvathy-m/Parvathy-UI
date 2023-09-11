@@ -57,8 +57,8 @@ body
 .c-txt
 {
   border: 1px solid var(--dw) !important;
-  outline: none !important;
-  border-radius: 3px !important;
+  outline: 0px !important;
+  border-radius: 5px !important;
   height: 50px;
 }
 
@@ -67,3 +67,9 @@ body
   outline: #9c9c9c !important;
 }
 
+
+.c-txt:focus
+{
+  outline: 0px !important;
+  box-shadow: none !important ;
+}
