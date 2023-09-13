@@ -38,7 +38,7 @@ b
 {
   font-size: 140px;
   margin-top: 30px;
-  line-height: 210px;
+  line-height: 150px;
   max-width: 100%;
 }
 
@@ -53,7 +53,11 @@ b
   font-weight: bold;
   display: inline-block; /* Make the name span inline-block to allow wrapping */
   white-space: nowrap;
+  font-size: 140px; /* Adjust font size for smaller screens */
+  line-height: 170px;
 }
+
+
 
 
 .title .content .b
@@ -82,7 +86,7 @@ b
   padding: 0px 0px 50px 0px;
   object-fit: contain;
   /* height: 100px; */
-  width: 600px;
+  width: 550px;
 }
 
 .photo-card > .card-body > img
@@ -137,7 +141,7 @@ b
 @media (min-width: 600px) and (max-width: 1000px)
 {
   .title .content .a,.title .content .a .name {
-    font-size: 120px; /* Adjust font size for smaller screens */
+    font-size: 100px; /* Adjust font size for smaller screens */
     line-height: 130px;
   }
 
