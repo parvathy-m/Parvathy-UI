@@ -23,7 +23,7 @@ p
 
 .content
 {
-  padding: 30px 18%;
+  padding: 10px 18%;
 }
 
 .content .img
@@ -31,6 +31,16 @@ p
   object-fit: contain;
   /* padding: 0px 100px; */
   width: auto
+}
+
+.action
+{
+  float: right;
+}
+
+.c-btn
+{
+  padding: 10px 10px !important;
 }
 
 /* .col-8
