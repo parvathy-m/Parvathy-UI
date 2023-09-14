@@ -2,13 +2,14 @@ footer
 {
   width: 100%;
   overflow-x: hidden;
-  background-color: var(--black);
+  background-color: var(--dark);
   color: var(--white);
 }
 
 ul
 {
   display: inline-flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-evenly;
   width: 100%;
@@ -16,9 +17,15 @@ ul
   margin: 0px;
 }
 
+
+.title h2 {
+  font-family: "Pacifico", "serif" !important;
+}
+
 li
 {
   list-style: none;
+  margin: 5px;
 }
 
 i
@@ -29,7 +36,7 @@ i
 
 footer .title
 {
-  padding: 40px 12%;
+  padding: 40px 10%;
 }
 
 .content
@@ -39,11 +46,11 @@ footer .title
 
 .email
 {
-  width: 66%;
+  width: 80%;
   display: inline-flex;
   align-items: center;
   border: 1px solid var(--dw) !important;
-  border-radius: 2px;
+  border-radius: 5px;
 }
 
 .row
@@ -55,7 +62,7 @@ footer .title
 .email input
 {
   border: none !important;
-  border-radius: 0px !important;
+  border-radius: 5px 0px 0px 5px !important
   /* padding: 0px !important; */
 }
 
@@ -85,4 +92,42 @@ footer .title
 .email i
 {
   font-size: 20px;
+}
+
+.row div
+{
+  margin-bottom: 20px;
+}
+
+
+
+@media (min-width: 601px) and (max-width: 1000px)
+{
+  .col
+  {
+    margin-bottom: 80px;
+  }
+  .email
+  {
+    width: 100%;
+  }
+
+}
+
+
+@media (max-width: 600px) {
+  .col
+  {
+    margin-bottom: 80px;
+  }
+
+  .email
+  {
+    width: 100%;
+  }
+
+  .row div li
+  {
+    margin-left: 8px;
+  }
 }
