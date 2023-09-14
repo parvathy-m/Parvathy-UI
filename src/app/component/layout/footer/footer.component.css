@@ -17,6 +17,11 @@ ul
   margin: 0px;
 }
 
+
+.title h2 {
+  font-family: "Pacifico", "serif" !important;
+}
+
 li
 {
   list-style: none;
@@ -31,7 +36,7 @@ i
 
 footer .title
 {
-  padding: 40px 12%;
+  padding: 40px 10%;
 }
 
 .content

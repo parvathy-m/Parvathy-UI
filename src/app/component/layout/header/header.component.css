@@ -1,24 +1,20 @@
-header
-{
+header {
   padding: 10px 8%;
   background-color: var(--black);
   color: var(--white);
   box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
 }
 
-h4
-{
+h4 {
   margin: 0px;
 }
 
-.link
-{
+.link {
   width: 40%;
 }
 
 
-ul
-{
+ul {
   display: inline-flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -27,18 +23,15 @@ ul
   margin: 0px;
 }
 
-li
-{
+li {
   list-style: none;
 }
 
-.nav-link.active
-{
+.nav-link.active {
   font-weight: bold;
 }
 
-.c-btn
-{
+.c-btn {
   width: auto !important;
   height: auto !important;
   padding: 0px !important;
@@ -46,29 +39,28 @@ li
   outline: 0px !important;
 }
 
- i
- {
+i {
   font-size: 25px;
   display: none;
- }
+}
 
- @media (min-width: 601px) and (max-width: 1000px)
-{
-  .link
-  {
+.title h3 {
+  font-family: "Pacifico", "serif" !important;
+}
+
+@media (min-width: 601px) and (max-width: 1000px) {
+  .link {
     width: 65%;
   }
 }
 
 
 @media (max-width: 600px) {
-  .link,.action > button
-  {
+  .link, .action>button {
     display: none !important;
   }
 
-  .action > i
-  {
+  .action>i {
     display: block;
   }
 }

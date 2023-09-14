@@ -1,0 +1,85 @@
+section
+{
+  padding: 0px 10%;
+}
+
+.title
+{
+  width: 100%;
+  text-align: center;
+}
+
+.title h2
+{
+  font-size: 50px;
+  color: var(--dg);
+}
+
+.skills
+{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+.skills .progress {
+  height: 80px;
+  display: block;
+  background: none;
+  /* border-radius: 0; */
+  width: 600px;
+  margin-top: 40px;
+  background-color: var(--cbg);
+  padding: 8px 20px;
+  border-radius: 8px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+}
+
+.skills .progress .skill {
+  /* padding: 0px 0; */
+  margin: 0;
+  display: block;
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--black);
+}
+
+.skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+
+.skills .progress-bar-wrap {
+  background: #cee7d97e;
+  border-radius: 4px;
+  margin-top: 15px;
+}
+
+.skills .progress-bar {
+  /* width: 100%; */
+  height: 10px;
+  transition: 0.9s;
+  background-color: var(--dg);
+  border-radius: 4px;
+}
+
+
+@media (min-width: 601px) and (max-width: 1000px)
+{
+  /* .card
+  {
+    width: 550px;
+  } */
+}
+
+
+@media (max-width: 600px) {
+  section
+{
+  padding: 0px;
+}
+}

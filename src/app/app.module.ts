@@ -13,6 +13,7 @@ import { SkillsComponent } from './component/pages/skills/skills.component';
 import { NewsComponent } from './component/pages/news/news.component';
 import { ContactComponent } from './component/pages/contact/contact.component';
 import { FooterComponent } from './component/layout/footer/footer.component';
+import { ProgressComponent } from './component/pages/progress/progress.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { FooterComponent } from './component/layout/footer/footer.component';
     SkillsComponent,
     NewsComponent,
     ContactComponent,
-    FooterComponent
+    FooterComponent,
+    ProgressComponent
   ],
   imports: [
     BrowserModule,
