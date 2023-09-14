@@ -17,10 +17,33 @@ section
 .title h2
 {
   font-size: 50px;
+  color:var(--dg);
 }
+
+/* .title h2 small
+{
+  color: var();
+} */
 
 .content
 {
   padding: 1px 27%;
   text-align: center;
+}
+
+
+@media (min-width: 601px) and (max-width: 1000px)
+{
+  .content
+  {
+    padding: 0px 20%;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .content
+  {
+    padding: 0px;
+  }
 }

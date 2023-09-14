@@ -12,13 +12,14 @@ section
 .title h2
 {
   font-size: 50px;
+  color: var(--dg);
 }
 
 .content
 {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   align-content: center;
   align-items: center;
   justify-content: space-evenly;
@@ -30,19 +31,28 @@ section
   border: none;
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
   border-top: 10px none;
-  border-bottom: 3px solid var(--cbr);
+  border-bottom: 5px solid var(--black);
   background-color: var(--cbg);
+  margin-bottom: 50px;
+  height: 450px;
+}
+
+.card h4
+{
+  color: var(--dg);
 }
 
 .flx
 {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 i
 {
   font-size: 45px;
+  color: var(--dg);
 }
 
 p
@@ -54,4 +64,21 @@ p
 .icon
 {
   padding: 10px;
+}
+
+
+@media (min-width: 601px) and (max-width: 1000px)
+{
+  .card
+  {
+    width: 550px;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .card
+  {
+    width: 500px;
+  }
 }

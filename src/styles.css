@@ -1,14 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300;400;500;700&family=Roboto:wght@300;400;500;700;900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300;400;500;700&family=Roboto:wght@300;400;500;700;900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300;400;500;700&family=Pacifico&family=Roboto:wght@300;400;500;700;900&display=swap');
 
 :root
 {
-  --black: #080402;
+  --black:  #126b73;
   --white: #f3f3f2;
-  --dw: #9c9c9c;
-  --bg: #f5fefd;
+  --dark : #106067;
+  --dg:#297981 ;
+  --dw: #0E555C  ;
+  --bg: #f3fff465;
   --cbr:#333333;
-  --cbg:#f8f8f89f;
+  --cbg:#e8faf07e;
 }
 
 *
@@ -24,14 +27,26 @@
 
 body
 {
-  background-color: var(bg);
+  background-color: var(--bg) !important;
   font-family: 'Roboto', Times, serif !important;
+  overflow-x: hidden;
+}
+
+.btn-success
+{
+  background-color: var(--dw) !important;
+  border-color: var(--dg) !important ;
+}
+
+.btn-success:hover
+{
+  background-color: var(--dark) !important;
 }
 
 .c-btn
 {
   /* border: none !important; */
-  border-radius: 2px !important;
+  border-radius: 4px !important;
   padding: 10px 40px !important;
   display: inline-flex !important;
   align-items: center !important;
@@ -39,15 +54,23 @@ body
   justify-content: center;
 }
 
+
 .c-txt
 {
-  border: 1px solid #9c9c9c !important;
-  outline: none !important;
-  border-radius: 3px !important;
+  border: 1px solid var(--dw) !important;
+  outline: 0px !important;
+  border-radius: 5px !important;
   height: 50px;
 }
 
 .c-txt:active
 {
   outline: #9c9c9c !important;
+}
+
+
+.c-txt:focus
+{
+  outline: 0px !important;
+  box-shadow: none !important ;
 }
